@@ -1,0 +1,33 @@
+{
+  "name": "colegiosecundario",
+  "version": "1.0.0",
+  "description": "Proyecto de un Colegio Secundario",
+  "keywords": [
+    "highschool",
+    "colegio",
+    "secundario",
+    "proyecto",
+    "web"
+  ],
+  "homepage": "https://github.com/Koridormi/HighSchool-Web#readme",
+  "bugs": {
+    "url": "https://github.com/Koridormi/HighSchool-Web/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koridormi/HighSchool-Web.git"
+  },
+  "license": "ISC",
+  "author": "Koridormi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.100.0"
+  }
+}
