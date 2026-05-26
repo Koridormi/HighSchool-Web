@@ -1,8 +1,5 @@
 :root {
-    --primario: black;
-    --secundario: grey;
-    --fondo: white;
-    --fuentePrincipal: arial;
+    --fuentePrincipal: "Nunito Sans", sans-serif;
 }
 html {
     font-size: 62.5%; /* 1rem = 10px */
@@ -12,6 +9,11 @@ html {
     box-sizing: inherit;
 }
 /* Globales */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
 body {
     font-size: 1.6rem; /* 1rem = 10px -- de manera natural es 1rem = 16px */
     font-family: var(--fuentePrincipal);
@@ -22,6 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-image: linear-gradient(to top, #dfe9f3 0%, #ffffff 100%);
 }
 /* Evita Scroll Horizontal */
 html, body {
