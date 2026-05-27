@@ -281,3 +281,77 @@
     }
 }
 // Cursos \\
+.sectionCursos {
+    background-image: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(../../public/img/background.webp);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.sectionCursos__informacion {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 5%;
+    color: #eeeff3;
+    font-weight: bold;
+    text-shadow: #0f0f0f 0.3rem 0rem;
+}
+@media (min-width: 768px) {
+    .sectionCursos__informacion {
+        top: 25%;
+        left: 19%;
+        font-size: 2rem;
+    }
+}
+@media (min-width: 1024px) {
+    .sectionCursos__informacion {
+        left: 15%;
+        font-size: 3rem;
+    }
+}
+.mainCursos {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+@media (min-width: 1024px) {
+    .mainCursos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 2rem;
+    }
+}
+.mainCursos__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+@media (min-width: 1024px) {
+    .mainCursos__contenedor:nth-of-type(3) {
+        grid-column: 1/3;
+    }
+}
+.mainCursos__contenedor h2 {
+    text-align: center;
+    margin: 0 0 0.6rem;
+}
+@media (min-width: 768px) {
+    .mainCursos__contenedor h2 {
+        font-size: 3rem;
+    }
+}
+.mainCursos__contenedor img {
+    width: 50%;
+    border-radius: 1rem;
+    margin: 0 0 1rem;
+}
+@media (min-width: 768px) {
+    .mainCursos__contenedor p {
+        font-size: 2.3rem;
+    }
+}
+// Novedades \\
