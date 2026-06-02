@@ -536,3 +536,64 @@
     }
 }
 // Opiniones \\
+.opinionesMain {
+    display: flex;
+    flex-direction: column;
+}
+@media (min-width: 1200px) {
+    .opinionesMain {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 4rem;
+    }
+}
+.opinionesMain h1 {
+    text-align: center;
+}
+@media (min-width: 1024px) {
+    .opinionesMain h1 {
+        font-size: 4rem;
+    }
+}
+@media (min-width: 1200px) {
+    .opinionesMain h1 {
+        grid-column: 1/4;
+    }
+}
+.opinionesArticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f28f2f;
+    width: 60%;
+    border: 1rem #f28f2f solid;
+    border-radius: 1rem;
+    margin: 0 auto 1rem;
+}
+@media (min-width: 768px) {
+    .opinionesArticle {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+@media (min-width: 1024px) {
+    .opinionesArticle {
+        font-size: 3rem;
+        padding: 1rem 0 0;
+    }
+}
+.opinionesArticle img {
+    width: 50%;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+.opinionesArticle h2 {
+    margin: 0.5rem 0;
+    text-align: center;
+}
+.opinionesArticle p {
+    text-align: left;
+}
+.opinionesArticle p:nth-of-type(1) {
+    border-bottom: 0.1rem #555555 solid;
+}
