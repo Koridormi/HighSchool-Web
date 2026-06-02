@@ -3,9 +3,9 @@ const copyrightTitle = document.querySelector('#copyright-titulo');
 
 // functions
 function copyrightYear() {
-    year = new Date().getFullYear();
+    const year = new Date().getFullYear();
 
-    copyrightTitle.textContent = `Colegio Solarios ${year}`;
+    copyrightTitle.textContent = `Colegio Solaris ${year}`;
 };
 
 copyrightYear();
