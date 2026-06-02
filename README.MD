@@ -5,4 +5,4 @@ Se utilizo HTML, SASS y JS
 ======================
 ![Imagen](media/2.gif)
 ======================
-Test: //
+Test: https://solaris-school.netlify.app/
